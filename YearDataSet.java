@@ -3,27 +3,27 @@
  */
 public class YearDataSet
 {
-    private int jahr =0;
+    private int year =0;
     private int count_m=0;
     private int count_w=0;
     private int count_total=0;
 
-    public YearDataSet(int jahr, int count_m, int count_w, int count_total)
+    public YearDataSet(int year, int count_m, int count_w, int count_total)
     {
-        this.jahr = jahr;
+        this.year = year;
         this.count_m = count_m;
         this.count_w = count_w;
         this.count_total = count_total;
     }
 
-    public int getJahr()
+    public int getYear()
     {
-        return jahr;
+        return year;
     }
 
-    public void setJahr(int jahr)
+    public void setYear(int year)
     {
-        this.jahr = jahr;
+        this.year = year;
     }
 
     public int getCount_m()
@@ -60,7 +60,7 @@ public class YearDataSet
     public String toString()
     {
         return "YearDataSet{" +
-                "jahr=" + jahr +
+                "year=" + year +
                 ", count_m=" + count_m +
                 ", count_w=" + count_w +
                 ", count_total=" + count_total +

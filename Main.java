@@ -8,7 +8,7 @@ public class Main
     public static void main(String[] args)
     {
         //Options
-        int calculatedYears=10;
+        int YearsCount=10;
 
         // set datafiles names
         String YearDatasetFile="E:/GAA/JahrgangsstatistikLuther.csv";
@@ -26,7 +26,7 @@ public class Main
         //calculate
         CalculateYears.calculateYear(data_yearDataSets,data_birthrate,MaxYear);
 
-        //Debugoutput
+        //DebugOutput
         for (YearDataSet value: data_yearDataSets)
         {
             //System.out.println(value.toString());
@@ -40,7 +40,7 @@ public class Main
         {
             //System.out.println(value.toString());
         }
-        System.out.println(MaxYear);
+        //System.out.println(MaxYear);
 
     }
 }
